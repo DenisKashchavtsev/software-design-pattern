@@ -1,0 +1,3 @@
+services:
+  App\User\Application\Service\UserServiceInterface: '@App\User\Application\Service\UserService'
+  App\User\Domain\Repository\UserRepositoryInterface: '@App\User\Infrastructure\Persistence\UserRepository'
